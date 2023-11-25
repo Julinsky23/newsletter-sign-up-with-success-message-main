@@ -80,8 +80,11 @@ h1{
 button{
     background-color: var(--dark-slate-grey);
     color: var(--white);
-    border-radius: 12px;
+    border-radius: 8px;
     cursor: pointer;
+    height: 50px;
+    width: 360px;
+    font-size: 15px;
 }
 
 aside img{
@@ -105,4 +108,20 @@ main img{
     justify-content: left;
     align-items: center;
     margin: 0 auto;
+    padding-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+input{
+    height: 50px;
+    width: 360px;
+    padding-left: 25px;
+    border-radius: 8px;
+}
+
+
+.paragraph::before{
+    content: url("assets/images/icon-list.svg")" ";
+    
 }
