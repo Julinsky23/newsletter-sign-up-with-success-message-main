@@ -42,9 +42,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-
-    
+    margin: 0 auto;    
 }
 /*
 section{
@@ -52,6 +50,9 @@ section{
     margin: 20px auto;
 
 }*/
+.text p{
+    padding-left: 10px;
+}
 
 .text p{
     line-height: 170%;
